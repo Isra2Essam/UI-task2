@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>UI task2</title>
+</head>
+<div class="container-fluid p-0">
+    <header>
+        <div class="heading  p-2">
+            <img class="etisalat-sports-logo position-relative top-0 start-50 translate-middle-x"
+                src="images/etisalat-sports.jpg" alt="" style="margin: auto !important; width: 100px;height: 50px;">
+            <i class="fas fa-bell float-end"></i>
+        </div>
+        <nav class="navbar navbar-expand  bg-dark">
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <i class="fas fa-swimmer"></i>
+                        <a class="nav-link " aria-current="page" href="#">سباحة</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-basketball-ball"></i>
+                        <a class="nav-link" href="#">كرة سله</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-table-tennis"></i>
+                        <a class="nav-link" href="#">تنس</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <i class="fas fa-dumbbell"></i>
+                        <a class="nav-link" href="#">فيتنس</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <i class="far fa-futbol"></i>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            كرة قدم
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="row ">
+        <div class="card p-0 w-75 mx-auto">
+            <img src="images/football.jpg" style="max-width: 2000px" class="card-img-top" alt="...">
+            <div class="card-body wallpaper">
+                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard</p>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-dark">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item tabs" role="presentation">
+                <button class="nav-link " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">غدا</button>
+            </li>
+            <li class="nav-item tabs" role="presentation">
+                <button class="nav-link activetoday  position-relative" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                    type="button" role="tab" aria-controls="profile" aria-selected="false">اليوم
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="#879C54" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
+                      </svg></button>
+            </li>
+            <li class="nav-item tabs" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                    role="tab" aria-controls="contact" aria-selected="false">الامس</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade " id="home" role="tabpanel">...</div>
+            <div class="tab-pane fade show active" id="profile" role="tabpanel">
+                <div class="row p-3">
+                    <div class="col-4">
+
+                        <img class="egy-flag float-end" src="images/egy-flag.png" alt="">
+
+                    </div>
+                    <div class="col-4 text-center live">
+                        <p>بطوله الأمم الافريقيه</p>
+                        <div class="rounded-pill bg-secondary w-md-25  m-auto"><b>لم تبدأ</b> <i
+                                class="fas fa-circle"></i></div>
+                        <p class="p-2">08:00 PM</p>
+                    </div>
+                    <div class="col-4">
+                        <img class="egy-flag float-start" src="images/egy-flag.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel">...</div>
+        </div>
+        <div class="where px-3">
+            <div class="float-end">يعرض على OSN:</div>
+            <div class="float-start">:الاستاد القاهره</div>
+        </div>
+        <br><br>
+        <div class="d-grid">
+            <button class="btn champions fw-bold "> عرض كل البطولات</button>
+        </div>
+    </div>
+    <br>
+    <div class="bg-dark">
+        <h2 class="float-end text-light">البطولات</h2>
+        <br><br>
+        <div id="multi-item-example" class="carousel slide carousel-multi-item p-2" data-bs-ride="carousel">
+            <div class="carousel-inner w-75 m-auto">
+                <div class="carousel-item p-3 champions-carousel active">
+                    <div class="row ">
+                        <div class="col-4"><img class="w-75" src="images/caf.png" alt=""></div>
+                        <div class="col-7 text-end">
+                            <h4>بطوله الامم الافريقيه</h4>
+                            <br>
+                            <h5>المباراه القادمه</h5>
+                            <br>
+                            <div class="d-flex justify-content-around float-end ">
+                                <div class="row">
+                                    <div class="col-4"><img src="images/egy-flag.png" class="egy-flag" alt=""></div>
+                                    <div class="col-4 text-center mt-2"><b class="vs">vs</b></div>
+                                    <div class="col-4"><img src="images/egy-flag.png" class="egy-flag" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-3 champions-carousel">
+                    <div class="row ">
+                        <div class="col-4"><img class="w-75" src="images/caf.png" alt=""></div>
+                        <div class="col-7 text-end">
+                            <h4>بطوله الامم الافريقيه</h4>
+                            <br>
+                            <h5>المباراه القادمه</h5>
+                            <br>
+                            <div class="d-flex justify-content-around float-end ">
+                                <div class="row">
+                                    <div class="col-4"><img src="images/egy-flag.png" class="egy-flag" alt=""></div>
+                                    <div class="col-4 text-center  mt-2"><b class="vs">vs</b></div>
+                                    <div class="col-4"><img src="images/egy-flag.png" class="egy-flag" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-3 champions-carousel ">
+                    <div class="row ">
+                        <div class="col-4"><img class="w-75" src="images/caf.png" alt=""></div>
+                        <div class="col-7 text-end">
+                            <h4>بطوله الامم الافريقيه</h4>
+                            <br>
+                            <h5>المباراه القادمه</h5>
+                            <br>
+                            <div class="d-flex justify-content-around float-end ">
+                                <div class="row">
+                                    <div class="col-4"><img src="images/egy-flag.png" class="egy-flag" alt=""></div>
+                                    <div class="col-4 text-center mt-2"><b class="vs">vs</b></div>
+                                    <div class="col-4"><img src="images/egy-flag.png" class="egy-flag" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <br><br>
+    <div class="bg-dark">
+        <div>
+            <h3 class="text-light float-end pt-2">الاخبار</h3>
+        </div>
+        <div>
+            <h4 class="float-start pt-2" style="color: #879C54;">المزيد</h4>
+        </div>
+        <br><br>
+        <div class="row news text-white">
+            <div class="col-3"><img class="w-100 h-100" src="images/news.jpg" alt=""></div>
+            <div class="col-6">
+                <h4>بطوله الأمم الافريقيه</h4>
+                <br>
+                <div class="info mt-2">
+                    <span class="m-2">مع شيماء</span>
+                    <span class="m-2">٣٠ اكتوبر ٢٠٢٠</span>
+                    <span class="m-2">٣٠ مشاهده</span>
+                </div>
+            </div>
+            <div class="col-3 p-5"><i class="fas fa-thumbs-up float-start"></i></div>
+        </div>
+        <div class="row mt-3 news text-white">
+            <div class="col-3"><img class="w-100 h-100" src="images/news.jpg" alt=""></div>
+            <div class="col-6">
+                <h4>بطوله الأمم الافريقيه</h4>
+                <br>
+                <div class="info mt-2">
+                    <span class="m-2">مع شيماء</span>
+                    <span class="m-2">٣٠ اكتوبر ٢٠٢٠</span>
+                    <span class="m-2">٣٠ مشاهده</span>
+                </div>
+            </div>
+            <div class="col-3 p-5"><i class="fas fa-thumbs-up float-start"></i></div>
+        </div>
+        <div class="row mt-3 news text-white">
+            <div class="col-3"><img class="w-100 h-100" src="images/news.jpg" alt=""></div>
+            <div class="col-6">
+                <h4>بطوله الأمم الافريقيه</h4>
+                <br>
+                <div class="info mt-2">
+                    <span class="m-2">مع شيماء</span>
+                    <span class="m-2">٣٠ اكتوبر ٢٠٢٠</span>
+                    <span class="m-2">٣٠ مشاهده</span>
+                </div>
+            </div>
+            <div class="col-3 p-5"><i class="fas fa-thumbs-up float-start"></i></div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <h3 class="float-end text-white">الاستوديو</h3>
+    </div>
+    <div>
+        <h4 class="float-start" style="color: #879C54;">المزيد</h4>
+    </div>
+    <br><br>
+    
+    <div id="multi-item-example" class="carousel slide carousel-multi-item p-2" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/news.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-1 pb-5 bg-dark text-white">
+                            <p>
+                            <h5 class="text-center">african nations</h5>
+                            <p class="float-end">٤ اكتوبر ٢٠٢٠</p>
+                            <p class="float-start">٢٠ مشاهده</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/news.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-1 pb-5 bg-dark text-white">
+                            <p>
+                            <h5 class="text-center">african nations</h5>
+                            <p class="float-end">٤ اكتوبر ٢٠٢٠</p>
+                            <p class="float-start">٢٠ مشاهده</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/news.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-1 pb-5 bg-dark text-white">
+                            <p>
+                            <h5 class="text-center">african nations</h5>
+                            <p class="float-end">٤ اكتوبر ٢٠٢٠</p>
+                            <p class="float-start">٢٠ مشاهده</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--second slide-->
+            <div class="carousel-item ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/news2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-1 pb-5 bg-dark text-white">
+                            <p>
+                            <h5 class="text-center">african nations</h5>
+                            <p class="float-end">٤ اكتوبر ٢٠٢٠</p>
+                            <p class="float-start">٢٠ مشاهده</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/news2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-1 pb-5 bg-dark text-white">
+                            <p>
+                            <h5 class="text-center">african nations</h5>
+                            <p class="float-end">٤ اكتوبر ٢٠٢٠</p>
+                            <p class="float-start">٢٠ مشاهده</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/news2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-1 pb-5 bg-dark text-white">
+                            <p>
+                            <h5 class="text-center">african nations</h5>
+                            <p class="float-end">٤ اكتوبر ٢٠٢٠</p>
+                            <p class="float-start">٢٠ مشاهده</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand  bg-dark">
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <i class="fas fa-bars"></i>
+                    <a class="nav-link " aria-current="page" href="#">المزيد</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-microphone-alt"></i>
+                    <a class="nav-link " aria-current="page" href="#">الاخبار</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <a class="nav-link" href="#">الاستوديو</a>
+                </li>
+                <li class="nav-item">
+                    
+                    <i class="fas fa-chart-pie"></i>
+                    <a class="nav-link" href="#">نتائج</a>
+                </li>
+                <li class="nav-item text-center">
+                    <i class="fas fa-home"></i>
+                    <a class="nav-link" href="#">الريئيسية</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+     <script src="js/script.js"></script>
+    </body>
+
+</html>
+
+<body>

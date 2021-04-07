@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+ /* heading */
+
+.heading {
+    background-color: black;
+}
+
+.etisalat-sports-logo {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+/* top-navigation-bar */
+
+.fa-bell {
+    color: #279277;
+    margin: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* banner */
+
+.wallpaper {
+    border-radius: 10%;
+}
+
+/* live-matches-tabs */
+
+.nav-tabs {
+    border-bottom: 1px solid #9FBA3E;
+    padding-bottom: 7px;
+}
+
+.nav-tabs .nav-link.active, .nav-link.active {
+    background-color: #879C54;
+}
+
+.active a {
+    direction: rtl;
+    color: #879C54 !important;
+}
+
+.active i, .where {
+    color: #879C54 !important;
+}
+
+.nav-item i {
+    color: white;
+}
+
+.egy-flag {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.live p {
+    color: #879C54;
+}
+
+.rounded-pill, .fa-circle::before {
+    color: red !important;
+}
+
+.where {
+    border-bottom: 2px solid #363636;
+}
+
+/* champions-carousel */
+
+.vs {
+    background: linear-gradient(to right, #ffe10079, #789f0c83);
+    border-radius: 50%;
+    width: 100%;
+}
+.champions {
+    font-size: larger !important;
+    color: #879C54;
+}
+
+.champions-carousel {
+    border-radius: 10px;
+    background: linear-gradient(to right, #ffe000, #799f0c);
+    ;
+}
+
+/* interviews */
+
+.news {
+    direction: rtl;
+}
