@@ -89,3 +89,19 @@ body {
 .news {
     direction: rtl;
 }
+.news-carousel img{
+    height: 200px;
+}
+.news-carousel .card-body{
+    height: 100px;
+}
+
+@media only screen and (min-width:1000px){
+    .banner-card{
+        width: 50%;
+        height: 80%;
+    }
+    .news-img{
+        width: 70% !important;
+    }
+}
